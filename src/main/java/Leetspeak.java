@@ -4,11 +4,15 @@ public class Leetspeak {
   }
 
   public String leetspeak (String inputString) {
-    return inputString;
+    String outputString = new String();
+    outputString = inputString.replace('e', '3');
+    outputString = outputString.replace('o', '0');
+    outputString = outputString.replace('I', '1');
+    return outputString;
 
 
   }
 
 
-  
+
 }
