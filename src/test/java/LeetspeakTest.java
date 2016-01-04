@@ -30,7 +30,7 @@ public class LeetspeakTest {
   @Test
   public void leetspeak_replacesEverySInAStringWithAZ_wordChanges() {
     Leetspeak Leetspeak = new Leetspeak();
-    assertEquals("roz3z are r3d", Leetspeak.leetspeak("roses are red"));
+    assertEquals("r0z3z ar3 r3d", Leetspeak.leetspeak("roses are red"));
   }
 
   @Test
