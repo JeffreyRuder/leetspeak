@@ -36,7 +36,7 @@ public class LeetspeakTest {
   @Test
   public void leetspeak_doesNotReplaceSWhenFirstLetter_wordChanges() {
     Leetspeak Leetspeak = new Leetspeak();
-    assertEquals("Suz13 Sunzh1n3", Leetspeak.leetspeak("Susie Sunshine"));
+    assertEquals("Suzi3 Sunzhin3", Leetspeak.leetspeak("Susie Sunshine"));
   }
 
   @Test
